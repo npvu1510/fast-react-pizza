@@ -1,12 +1,19 @@
 # Fast React Pizza
 
-A simple ReactJS application for ordering pizzas. This project demonstrates the use of modern React features, routing, state management, and CSS frameworks.
+A simple ReactJS application for ordering pizzas. This project is part of a [course on Udemy](https://www.udemy.com/course/the-ultimate-react-course/), demonstrating the use of modern React features, routing, state management, and CSS frameworks.
 
 ## Features
 
+- User can enter their name
+- Browse and select pizzas from the menu
+- Create an order with delivery address
+- View order details
+
+## Technologies
+
 - Using pizza data from [react-fast-pizza-api](https://react-fast-pizza-api.onrender.com/api)
 - Redux Toolkit for state management
-- Modern React Router setup with `createBrowserRouter`
+- Modern React Router setup with `createBrowserRouter` from React Router v6.4+
 - Tailwind CSS for styling
 
 ## Screenshots
@@ -75,6 +82,12 @@ fast-react-pizza/
 ```
 
 ## Routing Setup
+This project uses the latest React Router setup with `createBrowserRouter`. This allows for seamless integration of data fetching and action handling directly within the route definitions.
+
+In this setup:
+- `loaders` are used for fetching data before rendering the route component.
+- `actions` are used for handling form submissions or other user interactions that require server communication.
+
 ```sh
 const router = createBrowserRouter([
   {
