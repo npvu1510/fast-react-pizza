@@ -9,6 +9,19 @@ A simple ReactJS application for ordering pizzas. This project demonstrates the 
 - Modern React Router setup with `createBrowserRouter`
 - Tailwind CSS for styling
 
+## Screenshots
+### Home Page
+![Home Page](./screenshots/home.png)
+
+### Menu Page
+![Menu Page](./screenshots/menu-page-screenshot.png)
+
+### Cart Page
+![Cart Page](./screenshots/cart.png)
+
+### Order Page
+![Order Page](./screenshots/order.png)
+
 ## Project Setup
 
 1. Clone the repository:
@@ -26,19 +39,43 @@ A simple ReactJS application for ordering pizzas. This project demonstrates the 
 ## Project Setup
 ```
 fast-react-pizza/
+├── public/
 ├── src/
-│   ├── components/      # Các thành phần React
-│   ├── pages/           # Các trang của ứng dụng
-│   ├── redux/           # Redux slices và store
-│   ├── App.js           # Tệp chính của ứng dụng
-│   └── index.js         # Điểm vào của ứng dụng
-├── public/              # Tệp tĩnh
-├── README.md            # Tệp README của dự án
-├── package.json         # Thông tin về các package của dự án
-└── tailwind.config.js   # Cấu hình Tailwind CSS
+│   ├── features/
+│   │   ├── cart/
+│   │   ├── menu/
+│   │   ├── order/
+│   │   └── user/
+│   ├── services/
+│   │   ├── apiGeocoding.js
+│   │   └── apiRestaurant.js
+│   ├── ui/
+│   │   ├── AppLayout.jsx
+│   │   ├── Button.jsx
+│   │   ├── Error.jsx
+│   │   ├── Header.jsx
+│   │   ├── Home.jsx
+│   │   ├── LinkButton.jsx
+│   │   └── Loader.jsx
+│   ├── utils/
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── store.js
+├── .eslintrc.json
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── prettier.config.js
+├── tailwind.config.js
+└── vite.config.js
+
 ```
 
 ## Routing Setup
+```sh
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
@@ -75,6 +112,10 @@ const router = createBrowserRouter([
 function App() {
   return <RouterProvider router={router} />;
 }
+```
 
 ## Contribution
 Feel free to fork this project and submit pull requests. Any contributions are greatly appreciated.
+
+## License
+This project is licensed under the MIT License.
