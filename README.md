@@ -24,6 +24,7 @@ A simple ReactJS application for ordering pizzas. This project demonstrates the 
    npm run dev
 
 ## Project Setup
+```
 fast-react-pizza/
 ├── src/
 │   ├── components/      # Các thành phần React
@@ -35,6 +36,7 @@ fast-react-pizza/
 ├── README.md            # Tệp README của dự án
 ├── package.json         # Thông tin về các package của dự án
 └── tailwind.config.js   # Cấu hình Tailwind CSS
+```
 
 ## Routing Setup
 const router = createBrowserRouter([
