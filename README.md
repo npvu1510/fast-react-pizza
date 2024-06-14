@@ -4,10 +4,10 @@ A simple ReactJS application for ordering pizzas. This project demonstrates the 
 
 ## Features
 
-- Using pizza data from (react-fast-pizza)[https://react-fast-pizza-api.onrender.com/api]
+- Using pizza data from [react-fast-pizza-api](https://react-fast-pizza-api.onrender.com/api)
+- Redux Toolkit for state management
 - Modern React Router setup with `createBrowserRouter`
 - Tailwind CSS for styling
-- Redux Toolkit for state management
 
 ## Project Setup
 
