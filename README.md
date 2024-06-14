@@ -14,4 +14,3 @@ A simple ReactJS application for ordering pizzas. This project demonstrates the 
 1. Clone the repository:
    ```sh
    git clone https://github.com/username/fast-react-pizza.git
-   cd fast-react-pizza
