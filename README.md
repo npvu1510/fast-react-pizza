@@ -14,7 +14,7 @@ A simple ReactJS application for ordering pizzas. This project demonstrates the 
 ![Home Page](./screenshots/home.png)
 
 ### Menu Page
-![Menu Page](./screenshots/menu-page-screenshot.png)
+![Menu Page](./screenshots/menu.png)
 
 ### Cart Page
 ![Cart Page](./screenshots/cart.png)
